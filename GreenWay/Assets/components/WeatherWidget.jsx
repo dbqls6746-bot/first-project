@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 // 1. 인자를 객체 형태({ lat, lng })로 받아야 합니다.
 function WeatherWidget({ lat, lng }) {
-    const API_KEY = "94ba1248b822defcf77d77a621719f4d";
+    const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY;
     // 2. API 데이터를 저장할 상태(State)를 선언합니다.
     const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState(null);

@@ -19,7 +19,6 @@ function Main({Data,showIntro,setShowIntro}){
     const markerRef = useRef(null); // 선택한 위치에 마커 , 그리고 그 정보
     const currentPlaceMarkerRef = useRef(null); // 현재 위치 마커
     const mapContainerRef = useRef(null); //설명창이 지도 밖으로 나가지 않게 하기 위해서 , 맵의 레퍼런스를 담을 통
-    
     const navigate = useNavigate();
 
     // Fav 버튼 클릭시 작동

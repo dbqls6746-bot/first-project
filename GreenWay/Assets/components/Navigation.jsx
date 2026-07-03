@@ -7,9 +7,9 @@ import parksData from "../data/parksData.js";
 // 1페이지 Main Import
 import Main from "./Main";
 // 2페이지 import
-import Trail from "../page2/Trail.jsx";
+import Trail from "./Trail.jsx";
 // 3페이지 import
-import Park from "./Park3.jsx";
+import Park from "./Park.jsx";
 import WeatherWidget from "./WeatherWidget.jsx";
 
 function Navigation() {

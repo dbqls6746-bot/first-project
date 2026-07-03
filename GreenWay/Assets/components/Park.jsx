@@ -1,10 +1,10 @@
-import "./Park3.css";
+import "./Park.css";
 import parksData from "../data/parksData";
 import { useParams } from "react-router";
 import { useState, useEffect, useRef } from "react";
 import { MapPin } from "lucide-react";
 
-function Park3() {
+function Park() {
   const { id } = useParams();
   const [data, setData] = useState(null);
   const [showReviews, setShowReviews] = useState(false);
@@ -321,5 +321,4 @@ function Park3() {
     </>
   );
 }
-
-export default Park3;
+export default Park;
